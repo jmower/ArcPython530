@@ -13,7 +13,7 @@ class App:
 	# v = None #Experiment--global variables for writable label (through v as a StringVar())
 	# textBox = None
 	def __init__(self, master):
-
+		#print "in init"
 		frame = Frame(master)
 		frame.pack()
 
